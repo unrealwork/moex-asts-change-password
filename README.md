@@ -8,7 +8,12 @@
 
     *`NEWPASSWORD`* is required for app.
     ```properties
+    #local
     HOST=192.168.1.100:15005
+    #embedded
+    BROADCAST=10.63.1.255#Broadcast address for the server search to access the trading system, e.g., «10.63.1.255,10.63.3.255,10.61.1.255,10.61.3.255».
+    SERVICE=gateway#Trading system service name, e.g., «gateway». Port numbers may be specified instead, e.g. 18011/18012.
+    #common
     SERVER=UAT_GATEWAY
     USERID=MU9000000000
     PASSWORD=securepwd
