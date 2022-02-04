@@ -28,7 +28,7 @@
 * Run export via binaries from `bin` directory. Specify tables as arguments. By default it will export all tables.
 
 ```sh
-❯ ./bin/change_pwd.sh
+❯ java -cp "config:lib/*:." com.axibase.asts.ChangePassword
 16:27:23.158 [main] INFO  com.axibase.asts.client.MoexAstsClientImpl - Native libraries are successfully loaded
 16:27:23.190 [main] INFO  com.axibase.asts.client.config.Configs - Loaded config from file /mnt/c/Users/unrea/dev/moex-asts-change-password-0.0.1/config/asts.config. Config : MapBasedClientConfig(hosts=[Host(hostName=192.168.1.100
 , port=15005)], preferredHost=null, service=null, preferredBroadcast=null, broadcast=[], serverId=UAT_GATEWAY, userCredentials=UserCredentials(username=MU9032400002, password=******), interfaceId=IFCBroker42, tradingAccount=null, refreshInterval=PT15S, clientCode=null, optionalParams={LANGUAGE=ENGLISH, NEWPASSWORD=******, LOGFOLDER=logs, LOGGING=2,1, FEEDBACK=igor.shmagrinsky@axibase.com})
