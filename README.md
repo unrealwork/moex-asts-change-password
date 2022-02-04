@@ -4,20 +4,20 @@
 
 * Download appropriate [release]() depending on ASTS Bridge type  and unpack it.
 
-  * Configure connection to ASTS bridge via `config/asts.config` 
+* Configure connection to ASTS bridge via `config/asts.config` 
 
-      *`NEWPASSWORD`* is required for app.
-      ```properties
-      HOST=192.168.1.100:15005
-      SERVER=UAT_GATEWAY
-      USERID=MU9000000000
-      PASSWORD=securepwd
-      INTERFACE=IFCBroker42
-      LANGUAGE=ENGLISH
-      NEWPASSWORD=newsecurepwd
-      LOGFOLDER=logs
-      LOGGING=2,1
-      ```
+    *`NEWPASSWORD`* is required for app.
+    ```properties
+    HOST=192.168.1.100:15005
+    SERVER=UAT_GATEWAY
+    USERID=MU9000000000
+    PASSWORD=securepwd
+    INTERFACE=IFCBroker42
+    LANGUAGE=ENGLISH
+    NEWPASSWORD=newsecurepwd
+    LOGFOLDER=logs
+    LOGGING=2,1
+    ```
 
  
 * Run export via binaries from `bin` directory. Specify tables as arguments. By default it will export all tables.
