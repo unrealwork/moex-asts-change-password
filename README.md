@@ -2,7 +2,7 @@
 
 ### Usage
 
-* Download appropriate [release]() depending on ASTS Bridge type  and unpack it.
+* Download appropriate [release](https://github.com/unrealwork/moex-asts-change-password/releases/tag/0.0.1) depending on ASTS Bridge type  and unpack it.
 
 * Configure connection to ASTS bridge via `config/asts.config` 
 
